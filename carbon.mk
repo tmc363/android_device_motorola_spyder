@@ -2,15 +2,15 @@
 $(call inherit-product, device/motorola/spyder/full_spyder.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/carbon/config/common_phone.mk)
 
 # Inherit some common CDMA stuff.
-$(call inherit-product, vendor/cm/config/cdma.mk)
+$(call inherit-product, vendor/carbon/config/common_cdma.mk)
 
 #
 # Setup device specific product configuration.
 #
-PRODUCT_NAME := cm_spyder
+PRODUCT_NAME := carbon_spyder
 PRODUCT_BRAND := verizon
 PRODUCT_DEVICE := spyder
 PRODUCT_DEVICE_PREFIX := cdma
