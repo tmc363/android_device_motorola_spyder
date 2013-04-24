@@ -35,5 +35,6 @@ BOARD_KERNEL_BASE := 0x80000000
 BOARD_PAGE_SIZE := 0x4096
 
 # Kernel Build
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.6/bin/arm-eabi-
 TARGET_KERNEL_SOURCE := kernel/motorola/omap4-common
 TARGET_KERNEL_CONFIG := mapphone_spyder_defconfig
